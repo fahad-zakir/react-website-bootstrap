@@ -10,7 +10,7 @@ class Home extends Component {
             <Grid>
                 <Jumbotron>
                     <h2>Welcome to CodeLife.io</h2>
-                    <p>This is ahow to build a website with React, React-Router & React-Bootstrap</p>
+                    <p>This is how to build a website with React, React-Router & React-Bootstrap</p>
                 </Jumbotron>
                 <Link to="/about">
                     <Button bsStyle="primary">About</Button>
