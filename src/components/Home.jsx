@@ -21,3 +21,6 @@ class Home extends Component {
 }
 
 export default Home;
+
+// A jumbotron indicates a big box for calling extra attention to some special content or information.
+// Button is imported as well for a styled button
