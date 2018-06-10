@@ -13,7 +13,7 @@ class Home extends Component {
                     <p>This is ahow to build a website with React, React-Router & React-Bootstrap</p>
                 </Jumbotron>
                 <Link to="/about">
-                    <Button> bsStyle="primary">About</Button>
+                    <Button bsStyle="primary">About</Button>
                 </Link>
             </Grid>
         );
