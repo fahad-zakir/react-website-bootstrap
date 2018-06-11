@@ -1,3 +1,10 @@
+https://safe-cove-61602.herokuapp.com/
+
+My version above upon completion:  Excellent tutorial by Brice Ayres (thanks) https://www.youtube.com/watch?v=jgVkR5EKI68&t=1s
+Taught how to use Bootsrap 4 with React.js; went over styled buttons, bootstrap grid system and setting up the navbar along with customizing it.  I modified the components state using single element practice with const.  
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
