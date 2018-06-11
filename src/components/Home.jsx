@@ -1,11 +1,9 @@
-import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { Jumbotron, Grid, Row, Col, Image, Button } from 'react-bootstrap';
 import './Home.css';
 
-class Home extends Component {
-    render() {
-        return (
+const Home = props => ( 
             <Grid>
                 <Jumbotron>
                     <h2>Welcome to CodeLife.io</h2>
@@ -38,8 +36,6 @@ class Home extends Component {
                 </Row>
             </Grid>
         );
-    }
-}
 
 export default Home;
 

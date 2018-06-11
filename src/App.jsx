@@ -6,9 +6,7 @@ import About from './components/About';
 import News from './components/News';
 import Navbar from './components/CustomNavbar';
 
-class App extends Component {
-  render() {
-    return (
+const App = props => (
       <Router>
         <div>
           <Navbar />
@@ -18,7 +16,5 @@ class App extends Component {
         </div>
       </Router>
     );
-  }
-}
 
 export default App;

@@ -1,10 +1,7 @@
-import React, {Component} from 'react';
-import {Grid, Col, Image} from 'react-bootstrap';
+import React, { Component } from 'react';
+import { Grid, Col, Image } from 'react-bootstrap';
 import './About.css';
-
-class About extends Component {
-    render() {
-        return (
+const About = props => (
             <div>
                 <Image src="assets/dog-people.jpg" className="header-image"/>
                 <Grid>
@@ -29,7 +26,4 @@ class About extends Component {
                 </Grid>
             </div>
         );
-    }
-}
-
 export default About;

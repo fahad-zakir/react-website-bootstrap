@@ -3,9 +3,7 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './CustomNavbar.css';
 
-class CustomNavbar extends Component {
-    render() {
-        return (
+const CustomNavbar = props => (
             <Navbar default collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
@@ -28,8 +26,6 @@ class CustomNavbar extends Component {
                 </Navbar.Collapse>
             </Navbar>
         );
-    }
-}
 
 export default CustomNavbar;
 
